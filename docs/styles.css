@@ -1051,7 +1051,7 @@ input[name="tab_item"] {
   /* height: 52px; 
   padding: 0 4px; */
   height: 60px; 
-  padding: 8px;
+  padding: 4px;
   border-radius: 4px;
   color: var(--clr-fg);
   font-weight: 500;
