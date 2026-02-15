@@ -1018,7 +1018,7 @@ input[name="tab_item"] {
 /* PCでは通常メニュー表示 */
 .nav__list{
   display: flex;
-  gap: 16px;           /* お好み */
+  gap: 10px;           /* お好み */
   list-style: none;
   margin: 0;
   padding: 0;
