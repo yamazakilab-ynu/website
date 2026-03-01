@@ -1,101 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-  <loc>https://tyamazaki.com/</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/review</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/blog</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/publications</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/projects</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/notes</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/review/202308</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/review/202307</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/review/physics</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/review/materials</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/review/info</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/review/supercon</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/review/softmag</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/review/pcm</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/review/elastic</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/review/free</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/review/circularity</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tyamazaki.com/blog/posts/usa</loc>
-  <lastmod>2023-08-31T04:22:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  <!-- Top / Main pages -->
+  <url><loc>https://yamazakilab.ynu.ac.jp/</loc></url>
+  <url><loc>https://yamazakilab.ynu.ac.jp/research.html</loc></url>
+  <url><loc>https://yamazakilab.ynu.ac.jp/publications.html</loc></url>
+  <url><loc>https://yamazakilab.ynu.ac.jp/members.html</loc></url>
+  <url><loc>https://yamazakilab.ynu.ac.jp/facilities.html</loc></url>
+  <url><loc>https://yamazakilab.ynu.ac.jp/album.html</loc></url>
+  <url><loc>https://yamazakilab.ynu.ac.jp/messages.html</loc></url>
+  <url><loc>https://yamazakilab.ynu.ac.jp/links.html</loc></url>
+  <url><loc>https://yamazakilab.ynu.ac.jp/access.html</loc></url>
 
+  <!-- Members (individual pages under /members/) -->
+  <url><loc>https://yamazakilab.ynu.ac.jp/members/takahiro-yamazaki.html</loc></url>
 
 </urlset>
