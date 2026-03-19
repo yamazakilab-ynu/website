@@ -2049,11 +2049,20 @@ input[name="tab_item"] {
   margin-top: 0.2em;   /* ← 0.2行ぶん */
 }
 
-.about-text .lede{
+/* .about-text .lede{
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 1.2em;
+} */
+
+.about-text .lede {
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 1.8;
+  margin-bottom: 1.25em;
+  /* color: var(--clr-heading, inherit); */
 }
+
 .about-text .description7 {
   font-size: 1rem;
 }
@@ -2075,6 +2084,57 @@ input[name="tab_item"] {
   border-radius: 12px;
   /* box-shadow: var(--shadow); */
   display: block;
+}
+
+/* 追加分 *//* 小見出し */
+.about-subtitle {
+  margin-top: 1.35rem;
+  margin-bottom: 0.45rem;
+  font-size: 0.96rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  color: var(--clr-primary);
+  line-height: 1.4;
+}
+
+/* Mission / Vision 本文 */
+.about-mission,
+.about-vision {
+  margin-bottom: 1rem;
+  padding-left: 0.85rem;
+  border-left: 3px solid color-mix(in srgb, var(--clr-primary) 75%, transparent);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.8;
+  color: var(--clr-heading, inherit);
+}
+
+/* 箇条書き */
+.about-list {
+  margin: 0 0 1.15rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-list li {
+  position: relative;
+  margin-bottom: 0.6rem;
+  padding-left: 1.1rem;
+  line-height: 1.75;
+}
+
+.about-list li::before {
+  content: "";
+  position: absolute;
+  top: 0.78em;
+  left: 0;
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  background: var(--clr-primary);
+  transform: translateY(-50%);
+  opacity: 0.9;
 }
 
 .research-figure{
