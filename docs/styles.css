@@ -1715,11 +1715,26 @@ input[name="tab_item"] {
 
 .hero__keyword{
   margin-top: 0.75rem;
-  font-size: 0.95rem;
+  font-size: 18px;
   line-height: 1.6;
   color: #fff;
   font-weight: 600;
   letter-spacing: 0.03em;
+}
+
+/* モバイル用 */
+@media (max-width: 600px) {
+  .hero__title {
+    font-size: 14px !important;
+  }
+
+  .hero__desc {
+    font-size: 10px !important;
+  }
+
+  .hero__keyword {
+    font-size: 12px !important;
+  }
 }
 
 .hero__nav {
@@ -2006,6 +2021,121 @@ input[name="tab_item"] {
   gap: clamp(16px, 3vw, 28px);
   align-items: start;
 }
+
+/* About 2カラム */
+/* .about-split2{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: clamp(16px, 3vw, 28px);
+  align-items: start;
+} */
+
+/* About 2カラム */
+/* .about-split2{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: clamp(16px, 3vw, 28px);
+  align-items: start;
+}
+
+
+.about-split2 .about-figure{
+  margin: 0;
+  justify-self: end;
+  align-self: start;
+  width: 100%;
+  max-width: 360px;
+  aspect-ratio: 1 / 1;
+  position: relative;
+}
+
+.about-split2 .about-figure img{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+@media (max-width: 600px){
+  .about-split2{
+    grid-template-columns: 1fr;
+  }
+
+  .about-split2 .about-text{
+    order: 1;
+    margin: 0;
+  }
+
+  .about-split2 .about-figure{
+    order: 2;             
+    justify-self: center;
+    width: 100%;
+    max-width: 520px;
+    aspect-ratio: auto;
+    position: static;     
+    margin-top: 12px;
+  }
+
+  .about-split2 .about-figure img{
+    position: static;      
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+  }
+} */
+
+/* About section: 回り込み用 */
+.about-split2{
+  display: block;
+}
+
+.about-figure2{
+  position: static;
+  width: auto;
+  aspect-ratio: auto;
+  margin: 0;
+}
+
+.about-figure2 img{
+  position: static;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+/* PC: 右に回り込み */
+.about-figure--float-right2{
+  float: right;
+  width: min(360px, 38%);
+  margin: 0 0 16px 24px;
+}
+
+/* 必要なら左版も */
+.about-figure--float-left2{
+  float: left;
+  width: min(360px, 38%);
+  margin: 0 24px 16px 0;
+}
+
+/* スマホ: 回り込み解除して縦並び */
+@media (max-width: 600px){
+  .about-figure--float-right2,
+  .about-figure--float-left2{
+    float: none;
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto 16px;
+  }
+}
+
 
 .research-split-left{
   display: grid;
@@ -3822,6 +3952,7 @@ nav.footer-nav .nav__list {
   .hero__panel{ 
     padding: 12px 30px; border-radius: 10px; 
   }
+  
   .hero__dots{ bottom: 12px; gap: 10px; }
   .hero__nav{ width: 36px; height: 36px; font-size: 18px; }
   .hero__cta{
@@ -3831,21 +3962,22 @@ nav.footer-nav .nav__list {
     font-size: 13px;
   }
 
-  .hero__title {
+  /* .hero__title {
     margin: 0 0 .35em 0;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: .02em;
     color: #fff;
-    text-shadow: 0 3px 8px rgba(0,0,0,.55);
-  }
-  .hero__desc {
+    text-shadow: 0 3px 8px rgba(0,0,0,.55); */
+  /* } */
+
+  /* .hero__desc {
     margin: 0;
     font-size: 12px;
     line-height: 1.7;
     color: #fff;
     text-shadow: 0 2px 6px rgba(0,0,0,.55);
-  }
+  } */
 
   /* #########################  topic  ########################### */
   .topic .topic__tag {
@@ -4198,45 +4330,6 @@ nav.footer-nav .nav__list {
     width: 100%;
   }
 
-  /* .site-footer .nav__list{
-    font-size: 0.8rem;
-  }
-  .site-footer .nav__list a{
-    display: block;
-    padding: .1rem .1rem;
-    text-align: center;
-  }
-
-  .site-footer .footer-nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
-    width: 100%;
-  }
-
-  .site-footer .footer-nav .nav__list{
-    display: flex !important;  
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 6px 6px;  
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-  }
-
-  .site-footer .footer-nav .link--nav{
-    display: block;
-    padding: .4rem .2rem;
-    text-align: center;
-  } */
-  
 }
-/* ############################################################# */
-/* ############################################################# */
-/* ############################################################# */
-/* ############################################################# */
 
 #bottom{ height:0; overflow:hidden; }
